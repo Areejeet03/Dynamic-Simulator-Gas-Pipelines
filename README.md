@@ -1,1 +1,3 @@
 # Dynamic-Simulator-Gas-Pipelines
+A robust, Excel-driven 1D compressible fluid dynamics simulator for natural gas pipeline networks. This tool solves the fundamental conservation equations (Mass, Momentum, and Energy) using a implicit finite-difference scheme called box method to simulate transient, non-isothermal gas flow across varying terrains and pipe geometries. It is based on the real time transient modelling. 
+This simulator is capable of Backward Simulation (Delivery-Constrained), meaning you can input the customer's target delivery pressure and transient flow schedule, and the engine will back-simulate the required compressor inlet conditions and thermodynamics. This is also capable of simulation for multipipe systems where their properties can be varied. 
